@@ -8,7 +8,11 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Testing in progress";
+		return "This is devops class";
+	}
+	@GetMapping("/hello")
+	public String index() {
+		return "this is hello world program";
 	}
 
 }
