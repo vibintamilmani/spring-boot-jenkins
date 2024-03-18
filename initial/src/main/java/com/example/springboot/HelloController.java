@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String index() {
-		return "Testing jenkins";
+		return "This is jenkins app";
 	}
 
 }
